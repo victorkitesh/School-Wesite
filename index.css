@@ -1,0 +1,59 @@
+.container{
+    position: relative;
+    top: 0;
+    bottom:0 ;
+    right:0 ;
+    left: 0;
+  
+
+
+}
+
+body{
+    font-size: 1.3em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    margin: 0;
+    padding: 0.1% 0;
+    margin-right: 0;
+}
+nav>ul{
+    text-align: right;
+}
+ul>li{
+    display: inline-block;
+    justify-content: space-between;
+}
+ul>li>a{
+    text-transform: uppercase;
+    padding: 10%;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.733) ;
+}
+ul>li>a:hover{
+    box-shadow:0 0 0 0.625em rgba(0, 0, 0 , 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6) ;
+    background-color:  rgba(107, 93, 84, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+#overlay,#slogan,#scholar{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglTCPHAhl-Ya-vO-vB4o9YfgFC90wA6RDjw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    height:250px;
+    width: 400px;
+}
+#contacts{
+    background-color:violet;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: 50px auto 50px auto;
+    width: 80%;
+}
